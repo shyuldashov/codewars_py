@@ -17,15 +17,9 @@ if __name__ == '__main__':
     
     # Original Kata: https://www.codewars.com/kata/5266876b8f4bf2da9b000362
 
-    print(likes([]))
-    print(likes(['Peter']))
-    print(likes(['Jacob', 'Alex']))
-    print(likes(['Max', 'John', 'Mark']))
-    print(likes(['Alex', 'Jacob', 'Mark', 'Max', 'Agf', 'Gdf']))
-    
-    # []                                -->  "no one likes this"
-    # ["Peter"]                         -->  "Peter likes this"
-    # ["Jacob", "Alex"]                 -->  "Jacob and Alex like this"
-    # ["Max", "John", "Mark"]           -->  "Max, John and Mark like this"
-    # ["Alex", "Jacob", "Mark", "Max"]  -->  "Alex, Jacob and 2 others like this"
-    # 'Alex', 'Jacob', 'Mark', 'Max', 'Agf', 'Gdf']  --> "Alex, Jacob and 4 others like this"
+    print(likes([]))  # -->  "no one likes this"
+    print(likes(['Peter']))  # -->  "Peter likes this"
+    print(likes(['Jacob', 'Alex']))  # -->  "Jacob and Alex like this"
+    print(likes(['Max', 'John', 'Mark']))  # -->  "Max, John and Mark like this"
+    print(likes(['Alex', 'Jacob', 'Mark', 'Max']))  # -->  "Alex, Jacob and 2 others like this"s
+    print(likes(['Alex', 'Jacob', 'Mark', 'Max', 'Agf', 'Gdf']))  # -->  "Alex, Jacob and 4 others like this"s
