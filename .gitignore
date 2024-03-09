@@ -2,7 +2,8 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,linux,venv,python,pycharm,windows
 
 # Not resolved yet
-
+.idea/
+.vscode/
 
 
 ### Linux ###
